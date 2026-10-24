@@ -4,11 +4,14 @@ import { getAuth, signInAnonymously, onAuthStateChanged } from "https://www.gsta
 import { getDatabase, ref, set, update, onValue, onDisconnect, serverTimestamp } from "https://www.gstatic.com/firebasejs/10.12.2/firebase-database.js";
 
 const firebaseConfig = {
-  apiKey: "PASTE_YOUR_FIREBASE_API_KEY",
-  authDomain: "PASTE_YOUR_PROJECT.firebaseapp.com",
-  databaseURL: "https://PASTE_YOUR_PROJECT-default-rtdb.firebaseio.com",
-  projectId: "PASTE_YOUR_PROJECT",
-  appId: "PASTE_YOUR_APP_ID"
+  apiKey: "AIzaSyCkZVPGJoxQfPTSy2muPWpnBJmhHS0qxmw",
+  authDomain: "studyos-d68d2.firebaseapp.com",
+  databaseURL: "https://studyos-d68d2-default-rtdb.firebaseio.com",
+  projectId: "studyos-d68d2",
+  storageBucket: "studyos-d68d2.firebasestorage.app",
+  messagingSenderId: "50175053645",
+  appId: "1:50175053645:web:4747eaaced1b2dca47b104",
+  measurementId: "G-CYQ5316NX8"
 };
 
 const $ = (id) => document.getElementById(id);
